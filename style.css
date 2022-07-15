@@ -102,13 +102,10 @@ font-family: 'Roboto', sans-serif;
 /* imagenes*/
 .main img{
     width: 100%;
-<<<<<<< HEAD
     height: 500px;
     padding-left: 50px;
     padding-right: 50px;
-=======
     height: 600px;
->>>>>>> boostrap
 }
 img{
     max-width: 100%;
