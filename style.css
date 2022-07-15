@@ -6,17 +6,6 @@ font-family:
     padding:0;
     box-sizing: border-box;
 }
-/* Comentario */
-/* selector {
-    propiedad: valor;
-    propiedad: valor;
-    propiedad: valor;
-    propiedad: valor;
-} */
-/* Selector de etiquetas*/
-/* h1 {
-    color: brown;
-} */
 .logo{
     font-family:'Bebas Neue', cursive;
     padding: 1rem;
@@ -29,26 +18,14 @@ font-family:
     color: white;
     height: fit-content;
     font-size: xx-large 
-    
 }
-.navegacion ul{
-    list-style-type: none;
-    text-align: right;
+.navbar-collapse{
+    flex-grow: initial;
 }
-.navegacion li{
-    display: inline;
-    text-align: center;
-    margin: 0px 0px 0px 0px;
-}
-.navegacion ul li a{
-    padding: 0.125rem;
-    color: whitesmoke;
-    text-decoration: none;
-    text-align: center;
-    border:0.063rem;
-    font-family:'Bebas Neue', cursive;
-    position: sticky;
-    font-size: 2rem;
+.navbar-nav{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: xx-large;
 }
 /* textos */
 .h1{
@@ -113,8 +90,6 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 .btnn{
-    background-color: #8b0000;
-    /* width: 12%; */
     width: fit-content;
     border-radius: 10%;
 }
@@ -127,7 +102,7 @@ font-family: 'Roboto', sans-serif;
 /* imagenes*/
 .main img{
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 img{
     max-width: 100%;
@@ -146,11 +121,6 @@ img{
     height: 500px;
     padding-left: 50px;
     padding-right: 50px;
-}
-/* discografía */
-.spotify-column{
-    display: inline-flex;
-    justify-content: space-evenly;
 }
 /* responsive footer */
 .footer{
