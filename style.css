@@ -6,19 +6,6 @@ font-family:
     padding:0;
     box-sizing: border-box;
 }
-.logo{
-    font-family:'Bebas Neue', cursive;
-    padding: 1rem;
-    top: 1rem;
-    position: sticky;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    text-align: center;
-    color: white;
-    height: fit-content;
-    font-size: xx-large 
-}
 .navbar-collapse{
     flex-grow: initial;
 }
@@ -53,7 +40,7 @@ text-align: start;
 font-size: 1rem;
 }
 .textoFooter{
-    color: white;
+    color: #ffffff;
 font-weight: 100;
 text-align: left;
 font-size: 1rem;
@@ -217,6 +204,8 @@ img{
     justify-content: center;
     padding-left: 90px;
     padding-top: 20px;
+    font-size: 2rem;
+    color: #f4f4f4;
 }
 body contacto{
     font-family: 'Bebas Neue', cursive;
