@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
     height: 400vh;
     background-color: black;
@@ -43,3 +48,12 @@ body{
     font-size: 50%;
     }
 }    
+.h1{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+}
+.h1Sub{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+}
