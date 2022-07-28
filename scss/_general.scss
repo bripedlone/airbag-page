@@ -49,10 +49,12 @@ body{
     }
 }    
 .h1{
+    @include text($color);
     font-family:'Bebas Neue', cursive;
     color: white;
 }
 .h1Sub{
+    @include text($color, $align);
     font-family:'Bebas Neue', cursive;
     color: white;
     text-align: center;
