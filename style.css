@@ -24,12 +24,6 @@ font-family:
     color: white;
     text-align: center;
 }
-.textVideo{
-    font-family:'Bebas Neue', cursive;
-    color: white;
-    text-align: center;
-    font-weight: 800;
-}
 .textoMain{
     display: grid;
     grid-template-rows: 50px ;
@@ -37,12 +31,6 @@ font-family:
 color: white;
 font-weight: 200;
 text-align: start;
-font-size: 1rem;
-}
-.textoFooter{
-    color: #ffffff;
-font-weight: 100;
-text-align: left;
 font-size: 1rem;
 }
 body{
