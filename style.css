@@ -39,13 +39,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 /* tour page */
-.tourText{
-    color: white;
-font-weight: 100;
-text-align: center;
-font-size: 1rem;
-font-family: 'Roboto', sans-serif;
-}
 .tourTitle{
     font-family:'Bebas Neue', cursive;
     color: white;
