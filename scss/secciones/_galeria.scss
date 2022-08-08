@@ -22,11 +22,16 @@ img{
         grid-gap: 40px;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (min-width: 375px) and (max-width:500px){
     .gallery-container{
+        display: flex;
+        flex-direction: column;
         width: 90%;
-        grid-template-columns: 200px;
-        grid-template-rows: 200px;
+        grid-template-columns: 100px;
+        grid-template-rows: 100px;
+        padding-left: 30px;
+        padding-right: 20px;
+        grid-gap: 20px;
     }
 }
 .video-container{
@@ -45,11 +50,16 @@ img{
         grid-gap: 40px;
     }
 }
-@media screen and (max-width: 500px){
+@media (min-width: 375px) and (max-width:500px){
     .video-container{
+        display: flex;
+        flex-direction: column;
         width: 90%;
-        grid-template-columns: 200px;
-        grid-template-rows: 200px;
+        grid-template-columns: 100px;
+        grid-template-rows: 100px;
+        grid-gap: 20px;
+        padding-left: 30px;
+        padding-right: 20px;
     }
 }
 .boton:hover{
